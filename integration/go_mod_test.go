@@ -91,25 +91,25 @@ func testGoMod(t *testing.T, context spec.G, it spec.S) {
 			Expect(logs).NotTo(ContainLines(ContainSubstring("Buildpack for Git")))
 
 			// check that all required SBOM files are present
-			Expect(filepath.Join(sbomDir, "sbom", "build", "paketo-buildpacks_go-dist", "go", "sbom.cdx.json")).To(BeARegularFile())
-			Expect(filepath.Join(sbomDir, "sbom", "build", "paketo-buildpacks_go-dist", "go", "sbom.spdx.json")).To(BeARegularFile())
-			Expect(filepath.Join(sbomDir, "sbom", "build", "paketo-buildpacks_go-dist", "go", "sbom.syft.json")).To(BeARegularFile())
+			Expect(filepath.Join(sbomDir, "sbom", "build", "initializ-buildpacks_go-dist", "go", "sbom.cdx.json")).To(BeARegularFile())
+			Expect(filepath.Join(sbomDir, "sbom", "build", "initializ-buildpacks_go-dist", "go", "sbom.spdx.json")).To(BeARegularFile())
+			Expect(filepath.Join(sbomDir, "sbom", "build", "initializ-buildpacks_go-dist", "go", "sbom.syft.json")).To(BeARegularFile())
 
-			Expect(filepath.Join(sbomDir, "sbom", "build", "paketo-buildpacks_go-mod-vendor", "sbom.cdx.json")).To(BeARegularFile())
-			Expect(filepath.Join(sbomDir, "sbom", "build", "paketo-buildpacks_go-mod-vendor", "sbom.spdx.json")).To(BeARegularFile())
-			Expect(filepath.Join(sbomDir, "sbom", "build", "paketo-buildpacks_go-mod-vendor", "sbom.syft.json")).To(BeARegularFile())
+			Expect(filepath.Join(sbomDir, "sbom", "build", "initializ-buildpacks_go-mod-vendor", "sbom.cdx.json")).To(BeARegularFile())
+			Expect(filepath.Join(sbomDir, "sbom", "build", "initializ-buildpacks_go-mod-vendor", "sbom.spdx.json")).To(BeARegularFile())
+			Expect(filepath.Join(sbomDir, "sbom", "build", "initializ-buildpacks_go-mod-vendor", "sbom.syft.json")).To(BeARegularFile())
 
-			Expect(filepath.Join(sbomDir, "sbom", "launch", "paketo-buildpacks_go-build", "targets", "sbom.cdx.json")).To(BeARegularFile())
-			Expect(filepath.Join(sbomDir, "sbom", "launch", "paketo-buildpacks_go-build", "targets", "sbom.spdx.json")).To(BeARegularFile())
-			Expect(filepath.Join(sbomDir, "sbom", "launch", "paketo-buildpacks_go-build", "targets", "sbom.syft.json")).To(BeARegularFile())
+			Expect(filepath.Join(sbomDir, "sbom", "launch", "initializ-buildpacks_go-build", "targets", "sbom.cdx.json")).To(BeARegularFile())
+			Expect(filepath.Join(sbomDir, "sbom", "launch", "initializ-buildpacks_go-build", "targets", "sbom.spdx.json")).To(BeARegularFile())
+			Expect(filepath.Join(sbomDir, "sbom", "launch", "initializ-buildpacks_go-build", "targets", "sbom.syft.json")).To(BeARegularFile())
 
 			// check an SBOM file to make sure it contains entries for build-time modules
-			contents, err := os.ReadFile(filepath.Join(sbomDir, "sbom", "build", "paketo-buildpacks_go-mod-vendor", "sbom.cdx.json"))
+			contents, err := os.ReadFile(filepath.Join(sbomDir, "sbom", "build", "initializ-buildpacks_go-mod-vendor", "sbom.cdx.json"))
 			Expect(err).NotTo(HaveOccurred())
 			Expect(string(contents)).To(ContainSubstring(`"name": "github.com/BurntSushi/toml"`))
 
 			// check an SBOM file to make sure it contains entries for built binary
-			contents, err = os.ReadFile(filepath.Join(sbomDir, "sbom", "launch", "paketo-buildpacks_go-build", "targets", "sbom.cdx.json"))
+			contents, err = os.ReadFile(filepath.Join(sbomDir, "sbom", "launch", "initializ-buildpacks_go-build", "targets", "sbom.cdx.json"))
 			Expect(err).NotTo(HaveOccurred())
 			Expect(string(contents)).To(ContainSubstring(`"name": "github.com/BurntSushi/toml"`))
 		})
@@ -118,7 +118,7 @@ func testGoMod(t *testing.T, context spec.G, it spec.S) {
 			var procfileContainer occam.Container
 			it.Before(func() {
 				Expect(os.WriteFile(filepath.Join(source, "Procfile"),
-					[]byte("procfile: /layers/paketo-buildpacks_go-build/targets/bin/go-online --moon"),
+					[]byte("procfile: /layers/initializ-buildpacks_go-build/targets/bin/go-online --moon"),
 					0644)).To(Succeed())
 			})
 

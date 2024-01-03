@@ -91,20 +91,20 @@ func testBuild(t *testing.T, context spec.G, it spec.S) {
 			Expect(logs).NotTo(ContainLines(ContainSubstring("Buildpack for Git")))
 
 			// check that all required SBOM files are present
-			Expect(filepath.Join(sbomDir, "sbom", "build", "paketo-buildpacks_go-dist", "go", "sbom.cdx.json")).To(BeARegularFile())
-			Expect(filepath.Join(sbomDir, "sbom", "build", "paketo-buildpacks_go-dist", "go", "sbom.spdx.json")).To(BeARegularFile())
-			Expect(filepath.Join(sbomDir, "sbom", "build", "paketo-buildpacks_go-dist", "go", "sbom.syft.json")).To(BeARegularFile())
+			Expect(filepath.Join(sbomDir, "sbom", "build", "initializ-buildpacks_go-dist", "go", "sbom.cdx.json")).To(BeARegularFile())
+			Expect(filepath.Join(sbomDir, "sbom", "build", "initializ-buildpacks_go-dist", "go", "sbom.spdx.json")).To(BeARegularFile())
+			Expect(filepath.Join(sbomDir, "sbom", "build", "initializ-buildpacks_go-dist", "go", "sbom.syft.json")).To(BeARegularFile())
 
-			Expect(filepath.Join(sbomDir, "sbom", "launch", "paketo-buildpacks_go-build", "targets", "sbom.cdx.json")).To(BeARegularFile())
-			Expect(filepath.Join(sbomDir, "sbom", "launch", "paketo-buildpacks_go-build", "targets", "sbom.spdx.json")).To(BeARegularFile())
-			Expect(filepath.Join(sbomDir, "sbom", "launch", "paketo-buildpacks_go-build", "targets", "sbom.syft.json")).To(BeARegularFile())
+			Expect(filepath.Join(sbomDir, "sbom", "launch", "initializ-buildpacks_go-build", "targets", "sbom.cdx.json")).To(BeARegularFile())
+			Expect(filepath.Join(sbomDir, "sbom", "launch", "initializ-buildpacks_go-build", "targets", "sbom.spdx.json")).To(BeARegularFile())
+			Expect(filepath.Join(sbomDir, "sbom", "launch", "initializ-buildpacks_go-build", "targets", "sbom.syft.json")).To(BeARegularFile())
 		})
 
 		context("using optional utility buildpacks", func() {
 			var procfileContainer occam.Container
 			it.Before(func() {
 				Expect(os.WriteFile(filepath.Join(source, "Procfile"),
-					[]byte("procfile: /layers/paketo-buildpacks_go-build/targets/bin/workspace --moon"),
+					[]byte("procfile: /layers/initializ-buildpacks_go-build/targets/bin/workspace --moon"),
 					0644)).To(Succeed())
 			})
 
@@ -126,7 +126,7 @@ func testBuild(t *testing.T, context spec.G, it spec.S) {
 					Execute(name, source)
 				Expect(err).NotTo(HaveOccurred(), logs.String())
 
-				Expect(image.Buildpacks[5].Key).To(Equal("paketo-buildpacks/environment-variables"))
+				Expect(image.Buildpacks[5].Key).To(Equal("initializ-buildpacks/environment-variables"))
 				Expect(image.Buildpacks[5].Layers["environment-variables"].Metadata["variables"]).To(Equal(map[string]interface{}{"SOME_VARIABLE": "some-value"}))
 				Expect(image.Labels["some-label"]).To(Equal("some-value"))
 

@@ -1,4 +1,4 @@
-module github.com/paketo-buildpacks/go
+module github.com/initializ-buildpacks/go
 
 go 1.16
 

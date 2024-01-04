@@ -4,6 +4,7 @@ api = "0.7"
   description = "A buildpack for building Go applications"
   homepage = "https://github.com/initializ-buildpacks/go"
   id = "initializ-buildpacks/go"
+  sbom-formats = [ "application/spdx+json" ]
   keywords = ["go", "golang"]
   name = "Paketo Buildpack for Go"
 

@@ -3,22 +3,22 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:initializ-buildpacks/ca-certificates@3.6.7"
+  uri = "urn:cnb:registry:paketo-buildpacks/ca-certificates@3.6.7"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:initializ-buildpacks/environment-variables@4.5.6"
+  uri = "urn:cnb:registry:paketo-buildpacks/environment-variables@4.5.6"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:initializ-buildpacks/git@1.0.7"
+  uri = "docker://public.ecr.aws/initializ/go-buildpack@sha256:9fe080abe7be0144dd0775340b204fba270c665271ab6ffba7e67c2e43430fef"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:initializ-buildpacks/go-build@2.1.2"
+  uri = "docker://public.ecr.aws/initializ/go-buildpack@sha256:8caa8e519ee1cfacd4258f713fdbba839c34222756f5f1e590cf736900ff2fd6"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:initializ-buildpacks/go-dist@2.4.4"
+  uri = "docker://public.ecr.aws/initializ/go-buildpack@sha256:8cd801ed137fea4c0c7d924c00f7c17abb906c89ef3d4a8494e078a75ef95b8a"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:initializ-buildpacks/go-mod-vendor@1.0.27"
+  uri = "docker://public.ecr.aws/initializ/go-buildpack@sha256:375cb791c436db248401052b8c737c34997586cedb06ab907645d8561fcb0419"
 
 [[dependencies]]
   uri = "urn:cnb:registry:initializ-buildpacks/image-labels@4.5.5"

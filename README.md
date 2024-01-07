@@ -1,6 +1,6 @@
 # Go Paketo Buildpack
 
-## `gcr.io/paketo-buildpacks/go`
+## `public.ecr.aws/initializ/fullgo`
 
 The Go Paketo Buildpack provides a set of collaborating buildpacks that
 enable the building of a Go-based application. These buildpacks include:

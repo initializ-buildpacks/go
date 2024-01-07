@@ -21,10 +21,10 @@
   uri = "docker://public.ecr.aws/initializ/go-buildpack@sha256:375cb791c436db248401052b8c737c34997586cedb06ab907645d8561fcb0419"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:initializ-buildpacks/image-labels@4.5.5"
+  uri = "urn:cnb:registry:paketo-buildpacks/image-labels@4.5.5"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:initializ-buildpacks/procfile@5.6.8"
+  uri = "urn:cnb:registry:paketo-buildpacks/procfile@5.6.8"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:initializ-buildpacks/watchexec@2.8.7"
+  uri = "urn:cnb:registry:paketo-buildpacks/watchexec@2.8.7"

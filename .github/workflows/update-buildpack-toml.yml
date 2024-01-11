@@ -24,6 +24,12 @@ jobs:
     - name: Update buildpack.toml
       uses: initializ-buildpacks/github-config/actions/buildpack/update@main
 
+    - name: Set GNUPGHOME
+      run: |
+        mkdir -p /github/workspace/.gnupg
+        chmod 700 /github/workspace/.gnupg
+        echo "export GNUPGHOME=/github/workspace/.gnupg" >> $GITHUB_ENV
+
     - name: Commit
       id: commit
       uses: initializ-buildpacks/github-config/actions/pull-request/create-commit@main

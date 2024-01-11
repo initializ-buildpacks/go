@@ -23,6 +23,7 @@ jobs:
       with:
         repository: INITIALIZ-buildpacks/github-config
         path: github-config
+        token: ${{ secrets.INITIALIZ_BOT_GITHUB_TOKEN }}
 
     - name: Checkout Branch
       uses: initializ-buildpacks/github-config/actions/pull-request/checkout-branch@main

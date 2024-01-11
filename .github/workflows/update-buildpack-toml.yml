@@ -33,6 +33,7 @@ jobs:
         pathspec: "."
         keyid: ${{ secrets.INITIALIZ_GPG_SIGNING_KEY_ID }}
         key: ${{ secrets.INITIALIZ_GPG_SIGNING_KEY }}
+        run: chown -R $(whoami) ~/.gnupg 
 
     - name: Push Branch
       if: ${{ steps.commit.outputs.commit_sha != '' }}

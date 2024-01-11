@@ -25,8 +25,6 @@ jobs:
         path: github-config
         token: ${{ secrets.INITIALIZ_BOT_GITHUB_TOKEN }}
 
-    - name: Set GPG Home Directory Permissions
-      run: chmod 700 /github/home/.gnupg
 
     - name: Checkout Branch
       uses: initializ-buildpacks/github-config/actions/pull-request/checkout-branch@main

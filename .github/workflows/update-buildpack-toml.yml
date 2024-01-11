@@ -24,6 +24,10 @@ jobs:
     - name: Update buildpack.toml
       uses: initializ-buildpacks/github-config/actions/buildpack/update@main
 
+    - name: Set GPG keyring directory permissions
+      run: chmod 700 /github/home/.gnupg
+
+
     - name: Commit
       id: commit
       uses: initializ-buildpacks/github-config/actions/pull-request/create-commit@main

@@ -18,14 +18,14 @@ api = "0.7"
 [[order]]
 
   [[order.group]]
-    id = "paketo-buildpacks/ca-certificates"
+    id = "initializ-buildpacks/ca-certificates"
     optional = true
-    version = "3.6.7"
+    version = "3.6.9"
 
   [[order.group]]
-    id = "paketo-buildpacks/watchexec"
+    id = "initializ-buildpacks/watchexec"
     optional = true
-    version = "2.8.7"
+    version = "2.8.8"
 
   [[order.group]]
     id = "initializ-buildpack/go-dist"
@@ -45,31 +45,31 @@ api = "0.7"
     version = "2.1.2"
 
   [[order.group]]
-    id = "paketo-buildpacks/procfile"
+    id = "initializ-buildpacks/procfile"
     optional = true
-    version = "5.6.8"
+    version = "5.6.9"
 
   [[order.group]]
-    id = "paketo-buildpacks/environment-variables"
+    id = "initializ-buildpacks/environment-variables"
     optional = true
-    version = "4.5.6"
+    version = "4.5.7"
 
   [[order.group]]
-    id = "paketo-buildpacks/image-labels"
+    id = "initializ-buildpacks/image-labels"
     optional = true
     version = "4.5.5"
 
 [[order]]
 
   [[order.group]]
-    id = "paketo-buildpacks/ca-certificates"
+    id = "initializ-buildpacks/ca-certificates"
     optional = true
-    version = "3.6.7"
+    version = "3.6.9"
 
   [[order.group]]
-    id = "paketo-buildpacks/watchexec"
+    id = "initializ-buildpacks/watchexec"
     optional = true
-    version = "2.8.7"
+    version = "2.8.8"
 
   [[order.group]]
     id = "initializ-buildpack/go-dist"
@@ -85,16 +85,16 @@ api = "0.7"
     version = "2.1.2"
 
   [[order.group]]
-    id = "paketo-buildpacks/procfile"
+    id = "initializ-buildpacks/procfile"
     optional = true
-    version = "5.6.8"
+    version = "5.6.9"
 
   [[order.group]]
-    id = "paketo-buildpacks/environment-variables"
+    id = "initializ-buildpacks/environment-variables"
     optional = true
-    version = "4.5.6"
+    version = "4.5.7"
 
   [[order.group]]
-    id = "paketo-buildpacks/image-labels"
+    id = "initializ-buildpacks/image-labels"
     optional = true
     version = "4.5.5"

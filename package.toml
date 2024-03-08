@@ -24,7 +24,7 @@
   uri = "docker://public.ecr.aws/initializ/buildpack/image-labels@sha256:19ee94f0228880ee689ed9b652141c4d91de7f1ec8d49b21efd580b70dd15127"
 
 [[dependencies]]
-  uri = "docker://public.ecr.aws/initializ/buildpack/procfile@sha256:fe2979ecc343c1fe8cc13b8d9c0bd931d86503447be2fa5d3d299ecb7a35329e"
+  uri = "public.ecr.aws/initializ/buildpack/procfile@sha256:f9f9558b1ead4e8fc781b5e62df54eac074c2a240bab99737b4c824c6e6f3712"
 
 [[dependencies]]
   uri = "docker://public.ecr.aws/initializ/buildpack/watchexec@sha256:173e8b4b033df1353f2655fb62425e3b988634683d0f81db9d8e77907b51a666"

@@ -3,28 +3,28 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "docker://public.ecr.aws/initializ/buildpack/ca-certificates@sha256:be747c51b701557fe61855fdcedf60548617a479ee52b22ab7a479a2fd3f2d66"
+  uri = "index.docker.io/initializbuildpacks/ca-certificates@sha256:cf3c07c30bc3580f977ae000e4b41093f43b3b0bc8e066042c4cf02219c8d8c8"
 
 [[dependencies]]
-  uri = "docker://public.ecr.aws/initializ/buildpack/environment-variables@sha256:f09abaa902044fd03b747c13e8b8330116afe0b6402cdfad8c391c5390e33167"
+  uri = "index.docker.io/initializbuildpacks/environment-variables@sha256:2edb6355904423441837f691d85a624491254e18cda5a4634db72b1f16f8be0d"
 
 [[dependencies]]
-  uri = "docker://public.ecr.aws/initializ/go-buildpack@sha256:9fe080abe7be0144dd0775340b204fba270c665271ab6ffba7e67c2e43430fef"
+  uri = "index.docker.io/initializbuildpacks/go-dist@sha256:53e59f966c91e56f28dd61936de421351803cf31afc89b7c9a1e4368121c8ea7"
 
 [[dependencies]]
-  uri = "docker://public.ecr.aws/initializ/go-buildpack@sha256:8caa8e519ee1cfacd4258f713fdbba839c34222756f5f1e590cf736900ff2fd6"
+  uri = "index.docker.io/initializbuildpacks/git@sha256:bc1c30f662bc3e5b96164d3f39f995a732d9a45cbcffcfa7af42cff5843e0abd"
 
 [[dependencies]]
-  uri = "docker://public.ecr.aws/initializ/go-buildpack@sha256:8cd801ed137fea4c0c7d924c00f7c17abb906c89ef3d4a8494e078a75ef95b8a"
+  uri = "index.docker.io/initializbuildpacks/go-mod-vendor@sha256:15571e9b0ebf7f20f41eea3f289474a62992531034e22df23c08f76cb953c0d3"
 
 [[dependencies]]
-  uri = "docker://public.ecr.aws/initializ/go-buildpack@sha256:375cb791c436db248401052b8c737c34997586cedb06ab907645d8561fcb0419"
+  uri = "index.docker.io/initializbuildpacks/go-build@sha256:3563908f2442d0df8bdf51fd523f0314ea9f527e326b602808417110cc637fc9"
 
 [[dependencies]]
-  uri = "docker://public.ecr.aws/initializ/buildpack/image-labels@sha256:19ee94f0228880ee689ed9b652141c4d91de7f1ec8d49b21efd580b70dd15127"
+  uri = "index.docker.io/initializbuildpacks/image-labels@sha256:8f9097e72a3e3fc92937f116c4cd8a7e67b232079d9413686e023aeb6afb9f88"
 
 [[dependencies]]
-  uri = "public.ecr.aws/initializ/buildpack/procfile@sha256:f9f9558b1ead4e8fc781b5e62df54eac074c2a240bab99737b4c824c6e6f3712"
+  uri = "index.docker.io/initializbuildpacks/procfile@sha256:bd23a2d42c75721f49ab15964e24cb9080427b17c2a7b25db710b30c2761540c"
 
 [[dependencies]]
-  uri = "docker://public.ecr.aws/initializ/buildpack/watchexec@sha256:173e8b4b033df1353f2655fb62425e3b988634683d0f81db9d8e77907b51a666"
+  uri = "index.docker.io/initializbuildpacks/watchexec@sha256:c0149216f3da9c5d424009df8257bd3b9432b3148aba995cc1b16e5ddd6660f3"

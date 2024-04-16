@@ -9,13 +9,13 @@
   uri = "index.docker.io/initializbuildpacks/environment-variables@sha256:2edb6355904423441837f691d85a624491254e18cda5a4634db72b1f16f8be0d"
 
 [[dependencies]]
-  uri = "index.docker.io/initializbuildpacks/go-dist@sha256:53e59f966c91e56f28dd61936de421351803cf31afc89b7c9a1e4368121c8ea7"
+  uri = "index.docker.io/initializbuildpacks/go-dist@sha256:066b3694f1fddeb0426597b65abb318147a6a7ac8c2ae5ff5d1bff35de7045b9"
 
 [[dependencies]]
   uri = "index.docker.io/initializbuildpacks/git@sha256:bc1c30f662bc3e5b96164d3f39f995a732d9a45cbcffcfa7af42cff5843e0abd"
 
 [[dependencies]]
-  uri = "index.docker.io/initializbuildpacks/go-mod-vendor@sha256:15571e9b0ebf7f20f41eea3f289474a62992531034e22df23c08f76cb953c0d3"
+  uri = "index.docker.io/initializbuildpacks/go-mod-vendor@sha256:c508e340bed5999123aad56971ef333da5e052b1f845a0fd6f42669515964aa5"
 
 [[dependencies]]
   uri = "index.docker.io/initializbuildpacks/go-build@sha256:3563908f2442d0df8bdf51fd523f0314ea9f527e326b602808417110cc637fc9"

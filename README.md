@@ -11,7 +11,7 @@ The buildpack extends its support to crafting applications utilizing either the 
 [`samples` repository under the `go` directory](https://github.com/initializ-buildpacks/samples/tree/main/go).
 
 #### The Go buildpack is compatible with the following builder(s):
-- [Securepacks INITZ Builder](https://github.com/initializ-buildpacks/Securepack)
+- [Securepacks Initz Builder](https://github.com/initializ-buildpacks/Securepack)
 
 This buildpack also includes the following utility buildpacks:
 - [Git CNB](https://github.com/initializ-buildpacks/git)

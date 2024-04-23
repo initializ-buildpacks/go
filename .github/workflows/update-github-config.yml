@@ -16,14 +16,14 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v3
       with:
-        token: ${{ secrets.INITIALIZ_BOT_GITHUB_TOKEN }}
+        token: ${{ secrets.PAT }}
 
     - name: Checkout github-config
       uses: actions/checkout@v3
       with:
         repository: INITIALIZ-buildpacks/github-config
         path: github-config
-        token: ${{ secrets.INITIALIZ_BOT_GITHUB_TOKEN }}
+        token: ${{ secrets.PAT }}
 
 
     - name: Checkout Branch
@@ -59,7 +59,7 @@ jobs:
       if: ${{ steps.commit.outputs.commit_sha != '' }}
       uses: initializ-buildpacks/github-config/actions/pull-request/open@main
       with:
-        token: ${{ secrets.INITIALIZ_BOT_GITHUB_TOKEN }}
+        token: ${{ secrets.PAT }}
         title: "Updates github-config"
         branch: automation/github-config/update
 

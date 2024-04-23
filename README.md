@@ -1,6 +1,6 @@
 # Go Paketo Buildpack
 
-## `https://hub.docker.com/r/initializbuildpacks/go`
+## `https://hub.docker.com/r/initializbuildpacks/go` 
 
 The Go Securepack offers a comprehensive suite of collaborating buildpacks tailor-made for crafting Go-based applications. This ensemble of buildpacks comprises:
 - [Go Distribution CNB](https://github.com/initializ-buildpacks/go-dist)

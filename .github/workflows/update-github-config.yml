@@ -28,7 +28,8 @@ jobs:
 
     - name: Checkout Branch
       uses: initializ-buildpacks/github-config/actions/pull-request/checkout-branch@main
-
+      with:
+        branch: automation/github-config/update
 
     - name: Run the sync action
       uses: initializ-buildpacks/github-config/actions/sync@main

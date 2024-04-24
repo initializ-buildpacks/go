@@ -21,15 +21,14 @@ jobs:
     - name: Checkout github-config
       uses: actions/checkout@v3
       with:
-        repository: INITIALIZ-buildpacks/github-config
+        repository: initializ-buildpacks/github-config
         path: github-config
         token: ${{ secrets.PAT }}
 
 
     - name: Checkout Branch
       uses: initializ-buildpacks/github-config/actions/pull-request/checkout-branch@main
-      with:
-        branch: automation/github-config/update
+
 
     - name: Run the sync action
       uses: initializ-buildpacks/github-config/actions/sync@main

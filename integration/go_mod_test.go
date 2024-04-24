@@ -142,7 +142,7 @@ func testGoMod(t *testing.T, context spec.G, it spec.S) {
 					Execute(name, source)
 				Expect(err).NotTo(HaveOccurred(), logs.String())
 
-				Expect(image.Buildpacks[7].Key).To(Equal("paketo-buildpacks/environment-variables"))
+				Expect(image.Buildpacks[7].Key).To(Equal("initializ-buildpacks/environment-variables"))
 				Expect(image.Buildpacks[7].Layers["environment-variables"].Metadata["variables"]).To(Equal(map[string]interface{}{"SOME_VARIABLE": "some-value"}))
 				Expect(image.Labels["some-label"]).To(Equal("some-value"))
 

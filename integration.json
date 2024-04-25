@@ -1,6 +1,5 @@
 {
   "builders": [
-    "initializbuildpacks/securepacks-initzbuilder",
-    "paketobuildpacks/builder-jammy-base"
+    "initializbuildpacks/securepacks-initzbuilder"
   ]
 }

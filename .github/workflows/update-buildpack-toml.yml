@@ -5,6 +5,9 @@ on:
   - cron: '1 6 * * *' # daily at 06:01 UTC
   workflow_dispatch: {}
 
+permissions: 
+      contents: write 
+
 concurrency: buildpack_update
 
 jobs:

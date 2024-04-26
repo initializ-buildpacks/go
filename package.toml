@@ -3,28 +3,28 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "index.docker.io/initializbuildpacks/ca-certificates@sha256:cf3c07c30bc3580f977ae000e4b41093f43b3b0bc8e066042c4cf02219c8d8c8"
+  uri = "urn:cnb:registry:initializ-buildpacks/ca-certificates@3.6.10"
 
 [[dependencies]]
-  uri = "index.docker.io/initializbuildpacks/environment-variables@sha256:2edb6355904423441837f691d85a624491254e18cda5a4634db72b1f16f8be0d"
+  uri = "urn:cnb:registry:initializ-buildpacks/environment-variables@4.5.8"
 
 [[dependencies]]
-  uri = "index.docker.io/initializbuildpacks/go-dist@sha256:066b3694f1fddeb0426597b65abb318147a6a7ac8c2ae5ff5d1bff35de7045b9"
+  uri = "urn:cnb:registry:initializ-buildpacks/go-dist@2.4.8"
 
 [[dependencies]]
-  uri = "index.docker.io/initializbuildpacks/git@sha256:bc1c30f662bc3e5b96164d3f39f995a732d9a45cbcffcfa7af42cff5843e0abd"
+  uri = "urn:cnb:registry:initializ-buildpacks/git@1.0.8"
 
 [[dependencies]]
-  uri = "index.docker.io/initializbuildpacks/go-mod-vendor@sha256:c508e340bed5999123aad56971ef333da5e052b1f845a0fd6f42669515964aa5"
+  uri = "urn:cnb:registry:initializ-buildpacks/go-mod-vendor@1.0.33"
 
 [[dependencies]]
-  uri = "index.docker.io/initializbuildpacks/go-build@sha256:3563908f2442d0df8bdf51fd523f0314ea9f527e326b602808417110cc637fc9"
+  uri = "urn:cnb:registry:initializ-buildpacks/go-build@2.1.3"
 
 [[dependencies]]
-  uri = "index.docker.io/initializbuildpacks/image-labels@sha256:8f9097e72a3e3fc92937f116c4cd8a7e67b232079d9413686e023aeb6afb9f88"
+  uri = "urn:cnb:registry:initializ-buildpacks/image-labels@4.5.6"
 
 [[dependencies]]
-  uri = "index.docker.io/initializbuildpacks/procfile@sha256:bd23a2d42c75721f49ab15964e24cb9080427b17c2a7b25db710b30c2761540c"
+  uri = "urn:cnb:registry:initializ-buildpacks/procfile@5.6.11"
 
 [[dependencies]]
-  uri = "index.docker.io/initializbuildpacks/watchexec@sha256:c0149216f3da9c5d424009df8257bd3b9432b3148aba995cc1b16e5ddd6660f3"
+  uri = "urn:cnb:registry:initializ-buildpacks/watchexec@2.8.9"

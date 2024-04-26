@@ -22,7 +22,7 @@ jobs:
     - name: Checkout Branch
       uses: initializ-buildpacks/github-config/actions/pull-request/checkout-branch@main
       with:
-        branch: automation/buildpack.toml/update
+        branch: automations/buildpack.toml/update
 
     - name: Update buildpack.toml
       uses: initializ-buildpacks/github-config/actions/buildpack/update@main
@@ -42,7 +42,7 @@ jobs:
       if: ${{ steps.commit.outputs.commit_sha != '' }}
       uses: initializ-buildpacks/github-config/actions/pull-request/push-branch@main
       with:
-        branch: automation/buildpack.toml/update
+        branch: automations/buildpack.toml/update
 
     - name: Open Pull Request
       if: ${{ steps.commit.outputs.commit_sha != '' }}
@@ -50,7 +50,7 @@ jobs:
       with:
         token: ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
         title: "Updates buildpacks in buildpack.toml"
-        branch: automation/buildpack.toml/update
+        branch: automations/buildpack.toml/update
 
   failure:
     name: Alert on Failure

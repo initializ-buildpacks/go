@@ -4,9 +4,9 @@ api = "0.7"
   description = "A buildpack for building Go applications"
   homepage = "https://github.com/initializ-buildpacks/go"
   id = "initializ-buildpacks/go"
-  sbom-formats = [ "application/spdx+json" ]
   keywords = ["go", "golang"]
   name = "Initializ Buildpack for Go"
+  sbom-formats = ["application/spdx+json"]
 
   [[buildpack.licenses]]
     type = "Apache-2.0"
@@ -29,7 +29,7 @@ api = "0.7"
 
   [[order.group]]
     id = "initializ-buildpacks/go-dist"
-    version = "2.4.7"
+    version = "2.4.8"
 
   [[order.group]]
     id = "initializ-buildpacks/git"
@@ -38,7 +38,7 @@ api = "0.7"
 
   [[order.group]]
     id = "initializ-buildpacks/go-mod-vendor"
-    version = "1.0.29"
+    version = "1.0.33"
 
   [[order.group]]
     id = "initializ-buildpacks/go-build"
@@ -73,7 +73,7 @@ api = "0.7"
 
   [[order.group]]
     id = "initializ-buildpacks/go-dist"
-    version = "2.4.7"
+    version = "2.4.8"
 
   [[order.group]]
     id = "initializ-buildpacks/git"

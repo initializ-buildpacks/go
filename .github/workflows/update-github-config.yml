@@ -29,7 +29,7 @@ jobs:
     - name: Checkout Branch
       uses: initializ-buildpacks/github-config/actions/pull-request/checkout-branch@main
       with:
-        branch: automation/github-config/update
+        branch: automations/github-config/update
 
     - name: Run the sync action
       uses: initializ-buildpacks/github-config/actions/sync@main
@@ -53,7 +53,7 @@ jobs:
       if: ${{ steps.commit.outputs.commit_sha != '' }}
       uses: initializ-buildpacks/github-config/actions/pull-request/push-branch@main
       with:
-        branch: automation/github-config/update
+        branch: automations/github-config/update
 
     - name: Open Pull Request
       if: ${{ steps.commit.outputs.commit_sha != '' }}
@@ -61,7 +61,7 @@ jobs:
       with:
         token: ${{ secrets.PAT }}
         title: "Updates github-config"
-        branch: automation/github-config/update
+        branch: automations/github-config/update
 
   failure:
     name: Alert on Failure

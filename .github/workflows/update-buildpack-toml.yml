@@ -48,7 +48,7 @@ jobs:
       if: ${{ steps.commit.outputs.commit_sha != '' }}
       uses: initializ-buildpacks/github-config/actions/pull-request/open@main
       with:
-        token: ${{ secrets.PAKETO_BOT_GITHUB_TOKEN }}
+        token: ${{ secrets.PAT }}
         title: "Updates buildpacks in buildpack.toml"
         branch: automations/buildpack.toml/update
 

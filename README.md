@@ -1,4 +1,4 @@
-# Go Paketo Buildpack
+# Go Initializ Buildpack
 
 ## `https://hub.docker.com/r/initializbuildpacks/go` 
 

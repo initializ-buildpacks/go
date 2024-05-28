@@ -28,7 +28,7 @@ jobs:
         id: issue-to-proj
         uses: initializ-buildpacks/github-config/actions/issue/add-to-project@main
         with:
-          # initializ buildpacks project -https://github.com/orgs/initializ-buildpacks/projects/20
+          # Initializ buildpacks project -https://github.com/orgs/initializ-buildpacks/projects/20
           project-org: initializ-buildpacks
           project-num: 20
           field-name: Workstream

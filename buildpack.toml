@@ -42,7 +42,7 @@ api = "0.7"
 
   [[order.group]]
     id = "initializ-buildpacks/go-build"
-    version = "2.1.9"
+    version = "2.1.10"
 
   [[order.group]]
     id = "initializ-buildpacks/procfile"
@@ -82,7 +82,7 @@ api = "0.7"
 
   [[order.group]]
     id = "initializ-buildpacks/go-build"
-    version = "2.1.9"
+    version = "2.1.10"
 
   [[order.group]]
     id = "initializ-buildpacks/procfile"

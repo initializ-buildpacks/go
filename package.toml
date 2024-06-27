@@ -3,13 +3,13 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:initializ-buildpacks/ca-certificates@3.6.18"
+  uri = "urn:cnb:registry:initializ-buildpacks/ca-certificates@4.0.0"
 
 [[dependencies]]
   uri = "urn:cnb:registry:initializ-buildpacks/environment-variables@4.5.12"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:initializ-buildpacks/go-dist@2.4.13"
+  uri = "urn:cnb:registry:initializ-buildpacks/go-dist@2.4.15"
 
 [[dependencies]]
   uri = "urn:cnb:registry:initializ-buildpacks/git@1.0.12"

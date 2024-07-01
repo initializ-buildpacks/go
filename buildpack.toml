@@ -22,7 +22,6 @@ api = "0.7"
     optional = true
     version = "4.0.2"
 
-
   [[order.group]]
     id = "initializ-buildpacks/watchexec"
     optional = true

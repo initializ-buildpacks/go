@@ -20,8 +20,7 @@ api = "0.7"
   [[order.group]]
     id = "initializ-buildpacks/ca-certificates"
     optional = true
-    version = "4.0.1"
-
+    version = "4.0.2"
 
   [[order.group]]
     id = "initializ-buildpacks/watchexec"
@@ -65,7 +64,7 @@ api = "0.7"
   [[order.group]]
     id = "initializ-buildpacks/ca-certificates"
     optional = true
-    version = "4.0.1"
+    version = "4.0.2"
 
   [[order.group]]
     id = "initializ-buildpacks/watchexec"

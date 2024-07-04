@@ -3,7 +3,7 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "docker.io/initializbuildpacks/ca-certificates@sha256:9a06c20d72f350bc8f69be7da47c3f121660f82a5bef6a6d33c1cead29c9cf1f"
+  uri = "urn:cnb:registry:initializ-buildpacks/ca-certificates@4.0.2"
 
 [[dependencies]]
   uri = "urn:cnb:registry:initializ-buildpacks/environment-variables@4.5.12"

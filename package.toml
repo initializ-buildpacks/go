@@ -18,7 +18,7 @@
   uri = "urn:cnb:registry:initializ-buildpacks/go-mod-vendor@1.0.37"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:initializ-buildpacks/go-build@2.1.13"
+  uri = "urn:cnb:registry:initializ-buildpacks/go-build@2.1.14"
 
 [[dependencies]]
   uri = "urn:cnb:registry:initializ-buildpacks/image-labels@4.6.0"

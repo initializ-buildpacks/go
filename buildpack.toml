@@ -34,7 +34,7 @@ api = "0.7"
   [[order.group]]
     id = "initializ-buildpacks/git"
     optional = true
-    version = "1.0.13"
+    version = "1.0.14"
 
   [[order.group]]
     id = "initializ-buildpacks/go-mod-vendor"
@@ -78,7 +78,7 @@ api = "0.7"
   [[order.group]]
     id = "initializ-buildpacks/git"
     optional = true
-    version = "1.0.13"
+    version = "1.0.14"
 
   [[order.group]]
     id = "initializ-buildpacks/go-build"

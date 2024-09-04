@@ -9,7 +9,7 @@
   uri = "urn:cnb:registry:initializ-buildpacks/environment-variables@4.5.13"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:initializ-buildpacks/go-dist@2.4.18"
+  uri = "urn:cnb:registry:initializ-buildpacks/go-dist@2.5.0"
 
 [[dependencies]]
   uri = "urn:cnb:registry:initializ-buildpacks/git@1.0.14"

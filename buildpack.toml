@@ -29,7 +29,7 @@ api = "0.7"
 
   [[order.group]]
     id = "initializ-buildpacks/go-dist"
-    version = "2.4.18"
+    version = "2.5.0"
 
   [[order.group]]
     id = "initializ-buildpacks/git"
@@ -73,7 +73,7 @@ api = "0.7"
 
   [[order.group]]
     id = "initializ-buildpacks/go-dist"
-    version = "2.4.18"
+    version = "2.5.0"
 
   [[order.group]]
     id = "initializ-buildpacks/git"

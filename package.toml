@@ -3,7 +3,7 @@
   uri = "build/buildpack.tgz"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:initializ-buildpacks/ca-certificates@4.0.4"
+  uri = "urn:cnb:registry:initializ-buildpacks/ca-certificates@4.0.5"
 
 [[dependencies]]
   uri = "urn:cnb:registry:initializ-buildpacks/environment-variables@4.5.14"

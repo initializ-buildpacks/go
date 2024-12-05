@@ -20,7 +20,7 @@ api = "0.7"
   [[order.group]]
     id = "initializ-buildpacks/ca-certificates"
     optional = true
-    version = "4.0.4"
+    version = "4.0.5"
 
   [[order.group]]
     id = "initializ-buildpacks/watchexec"
@@ -29,7 +29,7 @@ api = "0.7"
 
   [[order.group]]
     id = "initializ-buildpacks/go-dist"
-    version = "2.5.3"
+    version = "2.5.4"
 
   [[order.group]]
     id = "initializ-buildpacks/git"
@@ -38,7 +38,7 @@ api = "0.7"
 
   [[order.group]]
     id = "initializ-buildpacks/go-mod-vendor"
-    version = "1.1.1"
+    version = "1.1.2"
 
   [[order.group]]
     id = "initializ-buildpacks/go-build"
@@ -64,7 +64,7 @@ api = "0.7"
   [[order.group]]
     id = "initializ-buildpacks/ca-certificates"
     optional = true
-    version = "4.0.4"
+    version = "4.0.5"
 
   [[order.group]]
     id = "initializ-buildpacks/watchexec"
@@ -73,7 +73,7 @@ api = "0.7"
 
   [[order.group]]
     id = "initializ-buildpacks/go-dist"
-    version = "2.5.3"
+    version = "2.5.4"
 
   [[order.group]]
     id = "initializ-buildpacks/git"

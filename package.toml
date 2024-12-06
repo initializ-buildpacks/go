@@ -6,25 +6,25 @@
   uri = "urn:cnb:registry:initializ-buildpacks/ca-certificates@4.0.5"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:initializ-buildpacks/environment-variables@4.5.14"
+  uri = "urn:cnb:registry:initializ-buildpacks/environment-variables@4.5.15"
 
 [[dependencies]]
   uri = "urn:cnb:registry:initializ-buildpacks/go-dist@2.5.4"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:initializ-buildpacks/git@1.1.0"
+  uri = "urn:cnb:registry:initializ-buildpacks/git@1.1.1"
 
 [[dependencies]]
   uri = "urn:cnb:registry:initializ-buildpacks/go-mod-vendor@1.1.2"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:initializ-buildpacks/go-build@2.2.1"
+  uri = "urn:cnb:registry:initializ-buildpacks/go-build@2.2.3"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:initializ-buildpacks/image-labels@4.6.3"
+  uri = "urn:cnb:registry:initializ-buildpacks/image-labels@4.6.4"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:initializ-buildpacks/procfile@5.6.21"
+  uri = "urn:cnb:registry:initializ-buildpacks/procfile@5.6.22"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:initializ-buildpacks/watchexec@2.8.15"
+  uri = "urn:cnb:registry:initializ-buildpacks/watchexec@2.8.16"

@@ -15,7 +15,7 @@
   uri = "urn:cnb:registry:initializ-buildpacks/git@1.1.3"
 
 [[dependencies]]
-  uri = "urn:cnb:registry:initializ-buildpacks/go-mod-vendor@1.1.6"
+  uri = "urn:cnb:registry:initializ-buildpacks/go-mod-vendor@1.2.0"
 
 [[dependencies]]
   uri = "urn:cnb:registry:initializ-buildpacks/go-build@2.5.10"

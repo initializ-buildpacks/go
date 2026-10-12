@@ -1,6 +1,6 @@
 module github.com/initializ-buildpacks/go
 
-go 1.27.1
+go 1.27.2
 
 require (
 	github.com/onsi/gomega v1.36.1
